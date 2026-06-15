@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator App</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>Calculator</h1>
+    </nav>
+
+
+    <section class="container">
+
+        <div class="calculator">
+
+            <h2>Simple Calculator</h2>
+
+            <input type="number" id="number1" placeholder="Enter first number">
+
+            <input type="number" id="number2" placeholder="Enter second number">
+
+
+            <div class="buttons">
+
+                <button onclick="add()">+</button>
+
+                <button onclick="subtract()">-</button>
+
+                <button onclick="multiply()">*</button>
+
+                <button onclick="divide()">/</button>
+
+            </div>
+
+
+            <div class="single-buttons">
+
+                <button onclick="square()">x²</button>
+
+                <button onclick="cube()">x³</button>
+
+            </div>
+
+
+            <h3>Result:</h3>
+
+            <div id="result">
+                0
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Calculator Project | Built using HTML CSS JavaScript
+        </p>
+
+    </footer>
+
+
+
+<script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
